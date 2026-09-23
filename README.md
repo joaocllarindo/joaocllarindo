@@ -149,12 +149,13 @@ Breve descrição do projeto.
 <div align="center">
 
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=joaocllarindo&bg_color=0D0D0D&color=A855F7&line=8B5CF6&point=C084FC&area=true&hide_border=true&custom_title=Jo%C3%A3o%20Clarindo%20%E2%80%94%20GitHub%20Activity"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=joaocllarindo&bg_color=0D0D0D&color=A855F7&line=8B5CF6&point=C084FC&area=true&hide_border=true"
   width="100%"
   alt="GitHub Activity Graph"
 />
 
 </div>
+
 
 
 ---
@@ -169,7 +170,6 @@ Breve descrição do projeto.
 />
 
 </div>
-
 
 ---
 
