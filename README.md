@@ -148,9 +148,14 @@ Breve descrição do projeto.
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=joaocllarindo&bg_color=0d0d0d&color=a855f7&line=8b5cf6&point=c084fc&area=true&hide_border=true" width="100%" />
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=joaocllarindo&bg_color=0D0D0D&color=A855F7&line=8B5CF6&point=C084FC&area=true&hide_border=true&custom_title=Jo%C3%A3o%20Clarindo%20%E2%80%94%20GitHub%20Activity"
+  width="100%"
+  alt="GitHub Activity Graph"
+/>
 
 </div>
+
 
 ---
 
@@ -158,9 +163,13 @@ Breve descrição do projeto.
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=joaocllarindo&theme=discord&no-frame=true&no-bg=true&margin-w=8&column=4" />
+<img
+  src="https://github-profile-trophy.vercel.app/?username=joaocllarindo&theme=darkhub&no-frame=true&no-bg=true&margin-w=10&column=6"
+  alt="GitHub Trophies"
+/>
 
 </div>
+
 
 ---
 
