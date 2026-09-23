@@ -9,7 +9,6 @@
 
 <div align="center">
 
-### `DevOps • Infrastructure • Automation`
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:5b21b6,100:8b5cf6&height=180&section=header&text=JOÃO%20CLARINDO&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=DevOps%20%7C%20Infrastructure%20%7C%20Automation&descAlignY=58&descSize=18" width="100%"/>
 
