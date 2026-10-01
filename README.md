@@ -166,8 +166,6 @@ Breve descrição do projeto.
 
 ## 🏆 GitHub Trophies
 
-## 🏆 GitHub Trophies
-
 <div align="center">
 
 <img
