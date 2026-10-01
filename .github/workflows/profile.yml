@@ -1,0 +1,81 @@
+name: Update GitHub Profile
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # ==========================================
+      # CHECKOUT
+      # ==========================================
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      # ==========================================
+      # ACTIVITY GRAPH
+      # ==========================================
+
+      - name: Generate Activity Graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: joaocllarindo
+          options: >-
+            bg_color=0D0D0D&
+            color=A855F7&
+            line=8B5CF6&
+            point=C084FC&
+            area=true&
+            hide_border=true
+          output_path: dist/activity.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+
+      # ==========================================
+      # GITHUB TROPHIES
+      # ==========================================
+
+      - name: Generate GitHub Trophies
+        uses: ryo-ma/github-profile-trophy@master
+        with:
+          username: joaocllarindo
+          output_path: dist/trophies.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          theme: darkhub
+
+
+      # ==========================================
+      # GITHUB SNAKE
+      # ==========================================
+
+      - name: Generate GitHub Snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: joaocllarindo
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+
+      # ==========================================
+      # DEPLOY
+      # ==========================================
+
+      - name: Publish profile assets
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
