@@ -172,16 +172,17 @@ Breve descrição do projeto.
 </div>
 
 ---
-
 ## 🐍 Contribution Snake
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/joaocllarindo/joaocllarindo/output/github-contribution-grid-snake-purple.svg" alt="Snake animation" />
+<img
+  src="https://raw.githubusercontent.com/joaocllarindo/joaocllarindo/output/github-snake.svg"
+  alt="GitHub Contribution Snake"
+/>
 
 </div>
 
-> **Nota:** para a Snake funcionar, será necessário criar o workflow do GitHub Actions no repositório especial `joaocllarindo/joaocllarindo`.
 
 ---
 
